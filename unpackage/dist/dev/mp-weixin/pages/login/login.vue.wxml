@@ -1,0 +1,25 @@
+<template name="4894abaf">
+  <form class="_form data-v-5daf41f8 loginView" bindsubmit="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-5daf41f8 oauth-image">
+      <image src="../../static/companyLogo.png" mode="aspectFit" class="_image data-v-5daf41f8"></image>
+    </view>
+    <view class="_view data-v-5daf41f8 label-3-text">易生支付手机报件</view>
+    <view class="_view data-v-5daf41f8 input-view">
+      <view class="_view data-v-5daf41f8 label-view">
+        <text class="_text data-v-5daf41f8 label">账号 </text>
+      </view>
+      <input class="_input data-v-5daf41f8 input" type="text" placeholder="请输入用户名" name="userName" />
+    </view>
+    <view class="_view data-v-5daf41f8 input-view">
+      <view class="_view data-v-5daf41f8 label-view">
+        <text class="_text data-v-5daf41f8 label">密码</text>
+      </view>
+      <input class="_input data-v-5daf41f8 input" password="{{showPassword}}" placeholder="请输入密码" name="userWord" />
+      <view class="_view data-v-5daf41f8 uni-icon uni-icon-eye {{[!showPassword ? 'uni-active' : '']}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></view>
+    </view>
+    <view class="_view data-v-5daf41f8 button-view">
+      <button type="default" class="_button data-v-5daf41f8 login" hover-class="hover" formType="submit">登录</button>
+      <button type="default" class="_button data-v-5daf41f8 register" hover-class="hover" formType="reset">重置</button>
+    </view>
+  </form>
+</template>

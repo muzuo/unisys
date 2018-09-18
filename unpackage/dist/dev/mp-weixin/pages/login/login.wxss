@@ -1,0 +1,19 @@
+
+.label-3-text {
+  color: #576B95;
+  font-size: 1em;
+  margin: 50rpx 0 50rpx 35%;
+}
+.oauth-image {
+  width: 9em;
+  height: 9em;
+  border: 1rpx  #dddddd;
+  border-radius: 100rpx;
+  margin: auto;
+  background-color: #ffffff;
+}
+.oauth-image image {
+  width: 7.5em;
+  height: 7.5em;
+  margin: 20rpx;
+}
